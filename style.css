@@ -234,6 +234,7 @@ html, body{
   0%{
       transform:scale(0);
   }
+
 .led-kutu{
 
   width:320px;
@@ -265,7 +266,3 @@ html, body{
 
   font-family:Arial;
   }
-  100%{
-      transform:scale(1);
-  }
-}
