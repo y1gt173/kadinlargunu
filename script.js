@@ -1,4 +1,4 @@
-
+// script.js
 const kutular = document.querySelectorAll('.kutu');
 
 kutular.forEach(kutu => {
@@ -22,3 +22,16 @@ bouquet.style.opacity = "1";
 
 }
 
+function mesajAc(kutu){
+
+  if(kutu==1){
+  document.querySelectorAll(".led")[0].classList.add("yandi");
+  document.getElementById("mesaj1").innerText="8 Mart Kadınlar Günün Kutlu Olsun 🌸";
+  }
+  
+  if(kutu==2){
+  document.querySelectorAll(".led")[1].classList.add("yandi");
+  document.getElementById("mesaj2").innerText="Dünyayı güzelleştiren tüm kadınlara teşekkürler 💐";
+  }
+  
+  }
