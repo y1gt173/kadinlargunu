@@ -234,6 +234,37 @@ html, body{
   0%{
       transform:scale(0);
   }
+    .led-kutu{
+
+  width:320px;
+  padding:25px;
+  
+  margin:40px auto;
+  
+  text-align:center;
+  
+  font-size:22px;
+  font-weight:bold;
+  
+  color:#ff4da6;
+  
+  background:#111;
+  
+  border-radius:12px;
+  
+  /* LED ÇERÇEVE */
+  border:3px solid #ff2e88;
+  
+  box-shadow:
+  0 0 5px #ff2e88,
+  0 0 10px #ff2e88,
+  0 0 20px #ff2e88,
+  0 0 40px;
+  
+  /* yazı led efekti */
+
+  font-family:Arial;
+  }
   100%{
       transform:scale(1);
   }
